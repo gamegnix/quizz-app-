@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quizz app</title>
+    <link rel="stylesheet" href="./quiz.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- screen 1 -->
+      <div id="level-screen">
+        <h1>Aestora designs</h1>
+        <p>select difficulty</p>
+        <button class="btn-clr" data-level="easy">Easy</button>
+        <button class="btn-clr" data-level="medium">Medium</button>
+        <button class="btn-clr" data-level="hard">Hard</button>
+      </div>
+
+      <!-- screen 2 -->
+      <div id="quiz-screen">
+        <p id="timer">Timer</p>
+        <h2 id="question">Question</h2>
+        <div id="answers">Answers</div>
+        <button id="next-btn">Next Button</button>
+      </div>
+
+      <!-- screen 3 -->
+      <div id="score-screen">
+        <h2>Quiz Completed</h2>
+        <p id="score-text">score text</p>
+        <button id="restart-btn">Restart</button>
+      </div>
+    </div>
+    <script src="./quiz.js"></script>
+  </body>
+</html>

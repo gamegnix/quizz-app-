@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oxanium", sans-serif;
+}
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  background-color: #1a1a2e;
+  padding: 30px;
+  border-radius: 15px;
+  width: 450px;
+}
+
+#quiz-screen {
+  display: none;
+}
+
+#score-screen {
+  display: none;
+}
+
+#level-screen {
+  text-align: center;
+}
+
+#level-screen h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #3b82fe;
+}
+
+#level-screen p {
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.btn-clr {
+  padding: 9px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8em;
+  margin: 3px;
+  font-weight: 600;
+}
+
+#quiz-screen {
+  text-align: center;
+}
+
+#timer {
+  font-size: 1.2rem;
+  color: #3b82fe;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+#question {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+#answers {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: bottom 20px;
+}
+
+#answers button {
+  color: black;
+  width: 50px;
+  height: 25px;
+  border-radius: 25px;
+  border-style: none;
+  cursor: pointer;
+}
+
+#next-btn {
+  background-color: #3b82fe;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+#restart-btn{
+  background-color: #3b82fe;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+#score-text{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  
+}
